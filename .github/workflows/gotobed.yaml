@@ -9,7 +9,7 @@ name: gotobed
 
 on:
  workflow_dispatch:  # 允许手动触发
- schedule: # 每晚上九点整执行 时差为 +8
+ schedule: # 北京时间每天 21:30 (UTC 13:30)
    - cron: '30 13 * * *'
 
 
